@@ -33,27 +33,35 @@
     <div class="container">
 
         <h1 class="mt-4">Cadastro de Produtos</h1>
-        <div>
-            <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Nome</label>
-                <input type="text" class="form-control" id="exampleFormControlInput1">
+
+
+        <form action="cadastro.php" method="get">
+
+            <div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Nome</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" name="nome">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Descrição</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="descricao"></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Preço</label>
+                    <input type="number" class="form-control" id="exampleFormControlInput1" name="preco">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Data</label>
+                    <input type="date" class="form-control" id="exampleFormControlInput1" name="data">
+                </div>
+                <div class="mb-3">
+                    <button type="submit" class="btn btn-success">Adicionar</button>
+                </div>
             </div>
-            <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Descrição</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
-            <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Preço</label>
-                <input type="number" class="form-control" id="exampleFormControlInput1">
-            </div>
-            <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Data</label>
-                <input type="date" class="form-control" id="exampleFormControlInput1">
-            </div>
-            <div class="mb-3">
-                <button type="button" class="btn btn-success">Adicionar</button>
-            </div>
-        </div>
+
+        </form>
+
+
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 
