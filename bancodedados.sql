@@ -12,7 +12,8 @@ CREATE TABLE IF NOT EXISTS `produtos` (
     `preco` DECIMAL(20, 2) NULL,
     `data` TIMESTAMP NULL,
     PRIMARY KEY (`id`)
-) ENGINE = InnoDB #
+) ENGINE = InnoDB;
+#
 # LISTANDO PRODUTOS
 #
 SELECT *
