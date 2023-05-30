@@ -1,5 +1,5 @@
 ## Projeto: Estoque do pão de açucar 
-
+### :art: [Visulizar projeto no browser](https://delisg.github.io/estoque-paodeacucar/)
 ### História de usuário
 
 1.  Como um funcionario do estoque\
